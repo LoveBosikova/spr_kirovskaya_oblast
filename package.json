@@ -1,12 +1,12 @@
 {
-  "name": "my-react-app",
+  "name": "spr_kirovskaya_oblast",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://LoveBosikova.github.io/heart", 
+  "homepage": "https://LoveBosikova.github.io/spr_kirovskaya_oblast", 
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

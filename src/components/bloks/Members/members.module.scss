@@ -14,7 +14,6 @@
 //     gap: 18px;
 // }
 
-
 .members {
   // background-color: red;
   width: 100%;
@@ -26,6 +25,35 @@
   font-family: $font-roboto;
   margin-top: 6vw;
 
+}
+
+.member {
+  max-width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  @media (max-width: 640px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+}
+
+.imgWrap {
+  min-width: 100px;
+  width: 100px;
+  max-width: 100px;
+    @media (max-width: 640px) {
+      width: 185px;
+      min-width: none;
+      max-width: none;
+    }
+}
+
+.img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 0.5rem
 }
 
 .title {

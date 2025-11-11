@@ -6,23 +6,26 @@ function Navigation () {
     return (
         <nav className={style.navigation}>
             <ul className={style.linksWrap}>
-                <NavLink to={'/about'} end>
+                <NavLink to={'spr_kirovskaya_oblast/about'} end>
                     <li className={style.linkWrap}><p className={style.link}>О нас</p></li>
                 </NavLink>
-                <NavLink to={'/projects'} end>
+                <NavLink to={'spr_kirovskaya_oblast/projects'} end>
                     <li className={style.linkWrap}><p className={style.link}>Наши проекты</p></li>
                 </NavLink>
-                <NavLink to={'/partners'} end>
+                <NavLink to={'spr_kirovskaya_oblast/partners'} end>
                     <li className={style.linkWrap}><p className={style.link}>Партнёры</p></li>
                 </NavLink>
-                <NavLink to={'/public'} end>
+                <NavLink to={'spr_kirovskaya_oblast/public'} end>
                     <li className={style.linkWrap}><p className={style.link}>Отчёты</p></li>
                 </NavLink>
-                <NavLink to={'/sertificates'} end>
+                <NavLink to={'spr_kirovskaya_oblast/sertificates'} end>
                     <li className={style.linkWrap}><p className={style.link}>Награды</p></li>
                 </NavLink>
-                <NavLink to={'/contacts'} end>
+                <NavLink to={'spr_kirovskaya_oblast/contacts'} end>
                     <li className={style.linkWrap}><p className={style.link}>Контакты</p></li>
+                </NavLink>
+                <NavLink to={'utv/news'} end>
+                    <li className={style.linkWrap}><p className={style.link}>Новости</p></li>
                 </NavLink>
             </ul>
         </nav>

@@ -13,6 +13,7 @@ import ProjectsPage from './components/pages/ProjectsPage/projectsPage';
 import PartnersPage from './components/pages/PartnersPage/PartnersPage';
 import SertificatePage from './components/pages/SertificatePage/SertificatePage';
 import ContactPage from './components/pages/ContactPage/ContactPage';
+import NewsPage from './components/pages/NewsPage/NewsPage';
 
 function App() {
 
@@ -21,13 +22,15 @@ function App() {
       <Header />
       <Navigation />
       <Routes>
-        <Route index path='/' element={<MainPage />} />
-        <Route path='/about' element={<AboutPage />} />
-        <Route path='/projects' element={<ProjectsPage />} />
-        <Route path='/public' element={<PublicPage />} />
-        <Route path='/partners' element={<PartnersPage />} />
-        <Route path='/sertificates' element={<SertificatePage />} />
-        <Route path='/contacts' element={<ContactPage />} />
+        <Route index path='spr_kirovskaya_oblast/' element={<MainPage />} />
+        <Route path='spr_kirovskaya_oblast/about' element={<AboutPage />} />
+        <Route path='spr_kirovskaya_oblast/projects' element={<ProjectsPage />} />
+        <Route path='spr_kirovskaya_oblast/public' element={<PublicPage />} />
+        <Route path='spr_kirovskaya_oblast/partners' element={<PartnersPage />} />
+        <Route path='spr_kirovskaya_oblast/sertificates' element={<SertificatePage />} />
+        <Route path='spr_kirovskaya_oblast/contacts' element={<ContactPage />} />
+        <Route path='utv/news' element={<NewsPage />} />
+        <Route path='*' element={<MainPage />} />
       </Routes>
       {/* <Footer /> */}
     </>

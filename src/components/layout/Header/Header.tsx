@@ -6,7 +6,7 @@ function Header () {
     return (
         <header className={style.header}>
             <div className={style.logo}>
-                <NavLink to={'/'} end>
+                <NavLink to={'spr_kirovskaya_oblast/'} end>
                     <Logo />
                 </NavLink>
             </div>
