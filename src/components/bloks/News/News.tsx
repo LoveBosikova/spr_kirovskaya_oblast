@@ -2,6 +2,10 @@ import VKPostEmbed from '../VKPostEmbed/VKPostEmbed';
 import style from './News.module.scss';
 
 export const NEWS_LINK = [
+    { 
+    id: "112265186_22079", 
+    hash: "eNoWWUvRLm7MWJm1glEYmqfWiHuR" 
+  },
   { 
     id: "212965583_6029", 
     hash: "jd-gibyp6cdxGFYc8kyNub5MRDOh" 
@@ -15,6 +19,7 @@ export const NEWS_LINK = [
     hash: "-Dlj-anFIrEF6DmoZ5yrovxJ3AqM" 
   },
 ];
+
 
 function News() {
     return (
